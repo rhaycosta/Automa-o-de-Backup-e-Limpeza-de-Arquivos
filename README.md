@@ -2,11 +2,13 @@
 
 Projeto de rotina de TI desenvolvido para otimização de armazenamento em nuvem. O sistema identifica arquivos inativos (sem modificação recente) e os move automaticamente para um diretório de arquivamento, mantendo a pasta de trabalho organizada e em conformidade.
 
-## 📷 Visão Geral do Projeto
+## 📷 Visão Geral do Fluxo Lógico
 
-
-| ![Fluxo da Automação](fluxo_limpeza.png) | 
-| *O robô verifica a data de cada arquivo* | 
+<div align="center">
+  <img src="fluxo_limpeza.png" width="400px" alt="Fluxo da Automação">
+  <br>
+  <em>O robô verifica a data de modificação de cada arquivo e decide se deve arquivá-lo.</em>
+</div>
 
 ---
 
